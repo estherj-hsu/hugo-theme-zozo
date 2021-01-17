@@ -32,7 +32,7 @@
 	{{ with .OutputFormats.Get "rss" }}
 	{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end }}
-    
+
     <link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}" />
 
     <link rel="stylesheet" type="text/css" media="screen" href="{{ .Site.BaseURL }}css/normalize.css" />
@@ -40,6 +40,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="{{ "css/zozo.css" |absURL }}" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="{{ "css/highlight.css" | absURL }}" />
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ "css/esther.css" | absURL }}" />
 
     <!-- custom css -->
     {{ range .Site.Params.customCSS }}

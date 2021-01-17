@@ -22,7 +22,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-  color: #333333;
+  color: #636e72;
   font-family: "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 16px;
   width: 100%;
@@ -63,6 +63,7 @@ h6 {
 
 hr {
   border: 1px solid #f3f3f3;
+  margin: 30px auto;
 }
 
 /*basic styles ends*/
@@ -211,14 +212,14 @@ hr {
   font-size: 1.4rem;
   line-height: 1;
   font-weight: 600;
-  color: #1f1f1f;
+  color: #2d3436;
   margin: 0 0 6px 0;
 }
 
 .post .post_title a {
   text-decoration: none;
   letter-spacing: 1px;
-  color: #1f1f1f;
+  color: #2d3436;
   font-size: 1.5rem;
   line-height: 28px;
 }
@@ -461,7 +462,7 @@ hr {
 .markdown h5,
 .markdown h6 {
   margin: 20px 0 20px 0;
-  color: #000000;
+  color: #2d3436;
 }
 
 .markdown h1 {
@@ -565,9 +566,13 @@ hr {
 .markdown strong,
 .markdown b,
 .markdown em {
-  padding: 1px 2px;
-  background-color: #fcfcf0;
-  font-weight: normal;
+  font-weight: bold;
+  color: #2d3436;
+}
+
+.markdown strong {
+  padding: 2px 4px;
+  background-color: #ffeaa7;
 }
 
 .markdown .fancybox {
